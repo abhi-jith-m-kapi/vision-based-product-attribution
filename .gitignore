@@ -13,7 +13,7 @@ venv/
 # Local secrets; keep the example template
 .env
 .env.*
-!.env.example
+
 
 # Local datasets and generated vector indexes
 /data/
