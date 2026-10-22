@@ -15,8 +15,20 @@ venv/
 .env.*
 
 
-# Local datasets and generated vector indexes
-/data/
+# Local dataset archives
+/data/archives/
+/data/**/*.zip
+/data/**/*.7z
+/data/**/*.rar
+/data/**/*.tar
+/data/**/*.tar.gz
+/data/**/*.tgz
+/data/**/*.tar.bz2
+/data/**/*.tbz2
+/data/**/*.tar.xz
+/data/**/*.txz
+/data/**/*.tar.zst
+/data/**/*.tzst
 
 # Jupyter and Streamlit local files
 .ipynb_checkpoints/
