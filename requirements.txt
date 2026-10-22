@@ -1,0 +1,18 @@
+# Streamlit application
+streamlit>=1.30
+ultralytics
+torch
+pillow
+pandas
+numpy
+chromadb
+python-dotenv
+boto3
+
+# Notebook and image-restoration experiments
+jupyterlab
+openai
+transformers
+tqdm
+matplotlib
+opencv-python

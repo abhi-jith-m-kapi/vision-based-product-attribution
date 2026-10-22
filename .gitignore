@@ -1,0 +1,32 @@
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Local secrets; keep the example template
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated vector indexes
+/data/
+
+# Jupyter and Streamlit local files
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Generated outputs and logs
+runs/
+outputs/
+*.log
+
+# Optional third-party restoration checkout and unused local weight
+/MPRNet/
+/models/RealESRGAN_x4plus.pth
